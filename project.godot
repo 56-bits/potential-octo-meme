@@ -19,6 +19,27 @@ config/name="Potential Octo Meme"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[debug]
+
+settings/crash_handler/message="Report to https://github.com/56-bits/potential-octo-meme/issues"
+
+[input]
+
+primary_click={
+"deadzone": 0.5,
+"events": [ Object(InputEventMouseButton,"resource_local_to_scene":false,"resource_name":"","device":0,"alt":false,"shift":false,"control":false,"meta":false,"command":false,"button_mask":0,"position":Vector2( 0, 0 ),"global_position":Vector2( 0, 0 ),"factor":1.0,"button_index":1,"pressed":false,"doubleclick":false,"script":null)
+ ]
+}
+
+[logging]
+
+file_logging/enable_file_logging=true
+
+[physics]
+
+2d/thread_model=2
+
 [rendering]
 
+threads/thread_model=2
 environment/default_environment="res://default_env.tres"

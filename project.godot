@@ -23,6 +23,29 @@ config/icon="res://icon.png"
 
 settings/crash_handler/message="Report to https://github.com/56-bits/potential-octo-meme/issues"
 
+[importer_defaults]
+
+texture={
+"compress/bptc_ldr": 0,
+"compress/hdr_mode": 0,
+"compress/lossy_quality": 0.7,
+"compress/mode": 0,
+"compress/normal_map": 0,
+"detect_3d": false,
+"flags/anisotropic": false,
+"flags/filter": false,
+"flags/mipmaps": false,
+"flags/repeat": 0,
+"flags/srgb": 2,
+"process/HDR_as_SRGB": false,
+"process/fix_alpha_border": true,
+"process/invert_color": false,
+"process/premult_alpha": false,
+"size_limit": 0,
+"stream": false,
+"svg/scale": 1.0
+}
+
 [input]
 
 primary_click={
@@ -38,8 +61,14 @@ file_logging/enable_file_logging=true
 [physics]
 
 2d/thread_model=2
+2d/bp_hash_table_size=16384
+2d/cell_size=64
+2d/default_gravity=0
+2d/default_gravity_vector=Vector2( 0, 0 )
 
 [rendering]
 
+quality/intended_usage/framebuffer_allocation=0
+quality/intended_usage/framebuffer_allocation.mobile=0
 threads/thread_model=2
 environment/default_environment="res://default_env.tres"

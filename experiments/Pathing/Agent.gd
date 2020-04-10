@@ -16,16 +16,15 @@ func _input(event : InputEvent):
 		($"../Target" as Position2D).global_position = m_pos
 		
 		#get the generted path
-		path = ($"../Navigation2D" as Navigation2D).get_simple_path(position, target_pos)
+		path = ($"../Navigation2D" as Navigation2D).get_simple_path(position, target_pos, false)
 		get_next_pos()
-		$"..".update() #draw the path
 
 func _process(delta):
 	
 	# if no next pos is defined, or if its close enough
 	# then move on to the next point in the queue
 	
-	if not next_pos or (position - next_pos).length() < 32:
+	if not next_pos or (position - next_pos).length() < 16:
 		get_next_pos()
 		
 

@@ -7,7 +7,7 @@ var fsm : Node
 func enter():
 	pass
 
-func exit(next_state):
+func exit():
 	pass
 
 func back():

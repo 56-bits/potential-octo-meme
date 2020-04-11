@@ -10,6 +10,8 @@ func _ready():
 	if get_child_count():
 		for c in get_children():
 			add_herdling(c)
+		
+		pick_leader()
 
 # herd leader logic
 func pick_leader(l : KinematicBody2D = null) -> void:

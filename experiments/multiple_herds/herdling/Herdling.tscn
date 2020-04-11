@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://icon.png" type="Texture" id=1]
 [ext_resource path="res://experiments/multiple_herds/herdling/Herdling.gd" type="Script" id=2]
@@ -7,6 +7,9 @@
 
 [sub_resource type="CircleShape2D" id=1]
 radius = 15.0
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 96.0
 
 [node name="Herdling" type="KinematicBody2D"]
 position = Vector2( 273.608, 168.921 )
@@ -27,14 +30,14 @@ shape = SubResource( 1 )
 [node name="StateMachine" type="Node" parent="."]
 script = ExtResource( 3 )
 
-[node name="IdleState" type="Node" parent="StateMachine"]
+[node name="Idle" type="Node" parent="StateMachine"]
 script = ExtResource( 4 )
 
 [node name="FollowLeader" type="Node" parent="StateMachine"]
 
 [node name="SearchLeader" type="Node" parent="StateMachine"]
 
-[node name="LeaderState" type="Node" parent="StateMachine"]
+[node name="Leading" type="Node" parent="StateMachine"]
 
 [node name="Dead" type="Node" parent="StateMachine"]
 
@@ -52,5 +55,14 @@ scroll_active = false
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="LocalArea" type="Area2D" parent="."]
+collision_layer = 0
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="LocalArea"]
+shape = SubResource( 2 )
 [connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
 [connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="body_entered" from="LocalArea" to="." method="_on_LocalArea_body_entered"]
+[connection signal="body_exited" from="LocalArea" to="." method="_on_LocalArea_body_exited"]

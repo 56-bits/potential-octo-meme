@@ -21,12 +21,46 @@ tile_data = PoolIntArray( -3014715, 0, 0, -3014714, 0, 0, -3014713, 0, 0, -30147
 [node name="HerdManager" parent="." instance=ExtResource( 4 )]
 
 [node name="Herdling" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -48.4966, -74.2365 )
 
 [node name="Herdling2" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 234.106, -34.1279 )
+position = Vector2( 69.8955, -6.75957 )
 
 [node name="Herdling3" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 325.712, 181.417 )
+position = Vector2( 6.76556, 0.364685 )
+
+[node name="Herdling4" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -58.4975, -19.6353 )
+
+[node name="Herdling5" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -22.7081, 32.9962 )
+
+[node name="Herdling6" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 26.7655, -60.6878 )
+
+[node name="Herdling7" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 64.6602, 60.3646 )
+
+[node name="Herdling14" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -48.4966, -74.2365 )
+
+[node name="Herdling13" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 69.8955, -6.75957 )
+
+[node name="Herdling12" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 6.76556, 0.364685 )
+
+[node name="Herdling11" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -58.4975, -19.6353 )
+
+[node name="Herdling10" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -22.7081, 32.9962 )
+
+[node name="Herdling9" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 26.7655, -60.6878 )
+
+[node name="Herdling8" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( 64.6602, 60.3646 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

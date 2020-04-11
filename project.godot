@@ -98,6 +98,11 @@ camera_zoom_out={
  ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="Walls"
+2d_physics/layer_2="Herdlings"
+
 [logging]
 
 file_logging/enable_file_logging=true

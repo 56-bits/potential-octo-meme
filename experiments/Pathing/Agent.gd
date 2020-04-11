@@ -35,7 +35,9 @@ func _physics_process(delta):
 	var mov : Vector2 = (next_pos - position).normalized() * speed
 	move_and_slide(mov)
 
-
+# the general flow should be that this function is called
+# to start going to the next point when the last one is 
+# reached
 func get_next_pos() -> void:
 		
 	if path:

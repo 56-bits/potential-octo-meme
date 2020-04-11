@@ -18,7 +18,7 @@ func _ready():
 	yield(get_tree(), "idle_frame")
 	self.target = position
 
-func _process(delta): 
+func _process(_delta): 
 	
 	var next_pos_diff : Vector2 = next_pos - position
 	
@@ -48,7 +48,7 @@ func _process(delta):
 	temp_path.insert(0, Vector2())
 	$Line2D.points = temp_path
 
-func _physics_process(delta):
+func _physics_process(_delta):
 	
 	var drag : Vector2 = vel * 0.1
 	vel += separation_force + follow_force - drag
@@ -56,7 +56,7 @@ func _physics_process(delta):
 	vel = vel.clamped(speed)
 	
 	if vel.length() != 0:
-		move_and_slide(vel)
+		var rem = move_and_slide(vel)
 	
 	if navigator:
 		position = navigator.get_closest_point(position)

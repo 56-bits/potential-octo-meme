@@ -1,5 +1,6 @@
 extends Node
 
+var controller : KinematicBody2D
 var fsm : Node
 
 # handle the 

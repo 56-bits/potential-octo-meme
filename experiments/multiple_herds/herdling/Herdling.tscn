@@ -23,3 +23,9 @@ script = ExtResource( 3 )
 
 [node name="IdleState" type="Node" parent="StateMachine"]
 script = ExtResource( 4 )
+
+[node name="FollowLeader" type="Node" parent="StateMachine"]
+
+[node name="SearchLeader" type="Node" parent="StateMachine"]
+
+[node name="LeaderState" type="Node" parent="StateMachine"]

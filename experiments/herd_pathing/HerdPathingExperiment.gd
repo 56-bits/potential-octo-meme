@@ -4,7 +4,8 @@ var agent_pk = preload("Agent.tscn")
 var agents : Array = []
 
 func _ready():
-	for i in range(200):
+	#spawn agents
+	for i in 200:
 		var agent = agent_pk.instance()
 		agents.append(agent)
 		add_child(agent)
@@ -17,5 +18,13 @@ func _input(event):
 		var pos = get_local_mouse_position()
 		$Target.position = pos
 		
+		# only update the tracking of a few at a time
+		var c = 0
 		for i in agents:
+			c+=1
+			if c > 20:
+				c = 0
+				#wait for a frame
+				yield(get_tree(), "idle_frame")
+			
 			i.target = pos

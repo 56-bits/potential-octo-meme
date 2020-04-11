@@ -16,19 +16,17 @@ var follow_force : Vector2 = Vector2()
 
 func _ready():
 	yield(get_tree(), "idle_frame")
-	yield(get_tree(), "idle_frame")
-	yield(get_tree(), "idle_frame")
 	self.target = position
 
-func _process(delta):
+func _process(delta): 
 	
-	var target_diff : Vector2 = next_pos - position
+	var next_pos_diff : Vector2 = next_pos - position
 	
-	if target_diff.length() < 16:
+	if next_pos_diff.length() < 16:
 		get_next_pos()
 		follow_force = Vector2()
 	else:
-		follow_force = target_diff.normalized() * speed
+		follow_force = next_pos_diff.normalized() * speed
 	
 	if len(nearby_agent_list):
 		var sum : Vector2 = Vector2()
@@ -66,14 +64,14 @@ func _physics_process(delta):
 func set_target(t: Vector2 = target) -> void:
 	target = t
 	
-	path = navigator.get_simple_path(position, target, false)
+	if navigator:
+		path = navigator.get_simple_path(position, target, false)
 	get_next_pos()
 
 func get_next_pos() -> void:
 	if len(path):
 		next_pos = path[0]
 		path.remove(0)
-		
 		
 	else:
 		next_pos = position
@@ -82,10 +80,12 @@ func get_next_pos() -> void:
 
 func _on_mouse_entered():
 	mouse_hover = true
+	($Line2D as Line2D).show()
 
 func _on_mouse_exited():
 	mouse_hover = false
-
+	($Line2D as Line2D).hide()
+	
 
 func _on_body_entered(body):
 	if body.get_script() == get_script() and body.name != name:

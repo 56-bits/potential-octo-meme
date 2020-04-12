@@ -20,7 +20,7 @@ func change_state(new_state):
 
 # for interacting with the state stack
 func push_state(new_state):
-	state_stack.push_front(state)
+	state_stack.push_front(state.name)
 	change_state(new_state)
 
 func pop_state():
@@ -34,6 +34,7 @@ func _enter_state():
 	state.fsm = self
 	state.controller = get_parent()
 	state.enter()
+	get_parent().state = state.name
 
 
 # Forward game functions

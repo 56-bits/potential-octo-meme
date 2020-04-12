@@ -3,6 +3,8 @@ extends Node
 var herd : Array = []
 
 var target : Vector2 = Vector2() setget set_target
+export var navigator_path : NodePath setget set_navigator
+onready var navigator : Navigation2D = get_node("../Navigation2D")
 
 var leader = null
 
@@ -34,6 +36,14 @@ func validate_leader() -> bool:
 func set_target(t : Vector2) -> void:
 	target = t
 
+func set_navigator(n):
+	var nd = get_node(n)
+	
+	if nd is Navigation2D:
+		navigator = nd
+		navigator_path = n
+
+# herd management
 func add_herdling(herdling : Node) -> void:
 	var par = herdling.get_parent()
 	
@@ -46,6 +56,7 @@ func add_herdling(herdling : Node) -> void:
 	herd.append(herdling)
 	add_child(herdling)
 	herdling.herd = self
+	herdling.navigator = navigator
 
 func remove_herdling(herdling : Node) -> void:
 	if herdling in herd:

@@ -13,6 +13,8 @@ var local_herdmates : Array = []
 var speed : float = 100
 var vel : Vector2 = Vector2(rand_range(-100, 100), rand_range(-100, 100))
 
+var state : String
+
 func _ready():
 	pass
 
@@ -45,9 +47,22 @@ func update_info() -> void:
 	r.push_align(RichTextLabel.ALIGN_CENTER)
 	
 	r.push_bold()
+	r.add_text("Name: ")
+	r.pop()
+	r.add_text(name)
+	
+	if herd:
+		r.newline()
+		r.push_bold()
+		r.add_text("Herd: ")
+		r.pop()
+		r.add_text(herd.name)
+	
+	r.newline()
+	r.push_bold()
 	r.add_text("State: ")
 	r.pop()
-	r.add_text($StateMachine.state.name)
+	r.add_text(state)
 	
 	if is_leader:
 		r.newline()
@@ -60,10 +75,12 @@ func update_info() -> void:
 func _on_mouse_entered():
 	mouse_hover = true
 	$RichTextLabel.show()
+	$Line2D.show()
 
 func _on_mouse_exited():
 	mouse_hover = false
 	$RichTextLabel.visible = info_lock
+	$Line2D.visible = info_lock
 
 
 #local herdlings

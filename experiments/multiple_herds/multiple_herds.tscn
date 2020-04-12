@@ -21,46 +21,480 @@ tile_data = PoolIntArray( -3014715, 0, 0, -3014714, 0, 0, -3014713, 0, 0, -30147
 [node name="HerdManager" parent="." instance=ExtResource( 4 )]
 
 [node name="Herdling" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -48.4966, -74.2365 )
 
 [node name="Herdling2" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 69.8955, -6.75957 )
 
 [node name="Herdling3" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 6.76556, 0.364685 )
 
 [node name="Herdling4" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -58.4975, -19.6353 )
 
 [node name="Herdling5" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -22.7081, 32.9962 )
 
 [node name="Herdling6" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 26.7655, -60.6878 )
-
-[node name="Herdling7" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 64.6602, 60.3646 )
-
-[node name="Herdling14" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -48.4966, -74.2365 )
-
-[node name="Herdling13" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 69.8955, -6.75957 )
-
-[node name="Herdling12" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 6.76556, 0.364685 )
-
-[node name="Herdling11" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -58.4975, -19.6353 )
-
-[node name="Herdling10" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( -22.7081, 32.9962 )
-
-[node name="Herdling9" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 26.7655, -60.6878 )
 
 [node name="Herdling8" parent="HerdManager" instance=ExtResource( 3 )]
-position = Vector2( 64.6602, 60.3646 )
+
+[node name="Herdling16" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling15" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling14" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling13" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling12" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling9" parent="HerdManager" instance=ExtResource( 3 )]
+
+[node name="Herdling7" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="Herdling10" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="Herdling11" parent="HerdManager" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="HerdManager2" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling2" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling3" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling4" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling5" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling6" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling8" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling9" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling7" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling17" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling16" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling15" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling14" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling13" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling12" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling10" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling11" parent="HerdManager2" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="HerdManager3" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling2" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling3" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling4" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling5" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling6" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling8" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling9" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling16" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling15" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling14" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling13" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling12" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling7" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="Herdling10" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="Herdling11" parent="HerdManager3" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="HerdManager4" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling2" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling3" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling4" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling5" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling6" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling8" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling9" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling16" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling15" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling14" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling13" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling12" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling7" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
+
+[node name="Herdling10" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
+
+[node name="Herdling11" parent="HerdManager4" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
+
+[node name="HerdManager8" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling2" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling3" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling4" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling5" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling6" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling8" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling16" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling15" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling14" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling13" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling12" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling9" parent="HerdManager8" instance=ExtResource( 3 )]
+
+[node name="Herdling7" parent="HerdManager8" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="Herdling10" parent="HerdManager8" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="Herdling11" parent="HerdManager8" instance=ExtResource( 3 )]
+position = Vector2( -422.223, -93.8663 )
+
+[node name="HerdManager7" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling2" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling3" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling4" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling5" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling6" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling8" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling9" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling7" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling17" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling16" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling15" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling14" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling13" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 778.608, 97.921 )
+
+[node name="Herdling12" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling10" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="Herdling11" parent="HerdManager7" instance=ExtResource( 3 )]
+modulate = Color( 0.67451, 0.2, 0.678431, 1 )
+position = Vector2( 82.7768, -164.866 )
+
+[node name="HerdManager6" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling2" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling3" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling4" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling5" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling6" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling8" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling9" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling16" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling15" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling14" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling13" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling12" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 786.608, 721.921 )
+
+[node name="Herdling7" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="Herdling10" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="Herdling11" parent="HerdManager6" instance=ExtResource( 3 )]
+modulate = Color( 0.305882, 0.678431, 0.2, 1 )
+position = Vector2( 90.7768, 459.134 )
+
+[node name="HerdManager5" parent="." instance=ExtResource( 4 )]
+
+[node name="Herdling" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling2" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling3" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling4" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling5" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling6" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling8" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling9" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling16" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling15" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling14" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling13" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling12" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( 234.608, 937.921 )
+
+[node name="Herdling7" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
+
+[node name="Herdling10" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
+
+[node name="Herdling11" parent="HerdManager5" instance=ExtResource( 3 )]
+modulate = Color( 0.886275, 0.490196, 0.0666667, 1 )
+position = Vector2( -461.223, 675.134 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
@@ -71,6 +505,8 @@ anchor_right = 0.5
 anchor_bottom = 1.0
 margin_left = -512.0
 margin_right = 512.0
+grow_horizontal = 2
+grow_vertical = 0
 __meta__ = {
 "_edit_use_anchors_": false
 }
